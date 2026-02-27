@@ -28,3 +28,13 @@
 ‎} else {
 ‎    console.log("Odd");
 ‎}
+‎// 5. Write a JavaScript program to find the largest of two numbers.
+‎
+‎let a = 10;
+‎let b = 20;
+‎
+‎if (a > b) {
+‎    console.log("Largest is: " + a);
+‎} else {
+‎    console.log("Largest is: " + b);
+‎}
