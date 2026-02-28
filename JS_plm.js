@@ -1,3 +1,14 @@
+‎// 6. Write a JavaScript program to check if a number is positive, negative or zero.
+‎
+‎let n = -5;
+‎
+‎if (n > 0) {
+‎    console.log("Positive");
+‎} else if (n < 0) {
+‎    console.log("Negative");
+‎} else {
+‎    console.log("Zero");
+‎}
 ‎// 1. Write a JavaScript program to print numbers from 1 to 10.
 ‎
 ‎for (let i = 1; i <= 10; i++) {
