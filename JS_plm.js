@@ -58,3 +58,15 @@
 ‎for (let i = 1; i <= 10; i++) {
 ‎    console.log(table + " x " + i + " = " + (table * i));
 ‎}
+
+‎// 8. Write a JavaScript program to reverse a string.
+‎
+‎let str = "hello";
+‎let reversed = "";
+‎
+‎for (let i = str.length - 1; i >= 0; i--) {
+‎    reversed += str[i];
+‎}
+‎
+‎console.log("Reversed: " + reversed);
+‎
