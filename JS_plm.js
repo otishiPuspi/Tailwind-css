@@ -69,4 +69,17 @@
 ‎}
 ‎
 ‎console.log("Reversed: " + reversed);
+
+‎// 9. Write a JavaScript program to count vowels in a string.
+‎
+‎let text = "javascript";
+‎let count = 0;
+‎
+‎for (let i = 0; i < text.length; i++) {
+‎    if ("aeiou".includes(text[i])) {
+‎        count++;
+‎    }
+‎}
+‎
+‎console.log("Vowel count: " + count);
 ‎
