@@ -122,4 +122,14 @@
 ‎} else {
 ‎    console.log("Not Palindrome");
 ‎}
+
+‎// 13. Write a JavaScript program to find the sum of elements in an array.
+‎
+‎let total = 0;
+‎
+‎for (let i = 0; i < arr.length; i++) {
+‎    total += arr[i];
+‎}
+‎
+‎console.log("Array sum: " + total);
 ‎
