@@ -166,7 +166,15 @@
 ‎
 ‎for (let i = 1; i <= 5; i++) {
 ‎    console.log("Square of " + i + " is: " + (i * i));
-‎}
+‎}‎
+
+// 17. Write a JavaScript program to convert Celsius to Fahrenheit.
+‎
+‎let celsius = 25;
+‎let fahrenheit = (celsius * 9/5) + 32;
+‎
+‎console.log("Fahrenheit: " + fahrenheit);
+‎
 ‎
 ‎
 ‎
