@@ -174,6 +174,16 @@
 ‎let fahrenheit = (celsius * 9/5) + 32;
 ‎
 ‎console.log("Fahrenheit: " + fahrenheit);
+
+‎// 18. Write a JavaScript program to check if a year is leap year.
+‎
+‎let year = 2024;
+‎
+‎if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+‎    console.log("Leap Year");
+‎} else {
+‎    console.log("Not Leap Year");
+‎}
 ‎
 ‎
 ‎
