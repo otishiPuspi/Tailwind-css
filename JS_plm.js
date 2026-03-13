@@ -183,6 +183,20 @@
 ‎    console.log("Leap Year");
 ‎} else {
 ‎    console.log("Not Leap Year");
+‎}‎
+
+  // 19. Write a JavaScript program to print Fibonacci series up to 10 terms.
+‎
+‎let f1 = 0, f2 = 1;
+‎
+‎console.log(f1);
+‎console.log(f2);
+‎
+‎for (let i = 3; i <= 10; i++) {
+‎    let next = f1 + f2;
+‎    console.log(next);
+‎    f1 = f2;
+‎    f2 = next;
 ‎}
 ‎
 ‎
