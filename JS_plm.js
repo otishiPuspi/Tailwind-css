@@ -221,5 +221,11 @@
 ‎
 ‎for (let i = 1; i <= 10; i++) {
 ‎    console.log(i + " cube = " + (i * i * i));
+‎}‎
+
+// 23. Write a JavaScript program to count numbers from 10 to 1.
+‎
+‎for (let i = 10; i >= 1; i--) {
+‎    console.log(i);
 ‎}
 ‎
