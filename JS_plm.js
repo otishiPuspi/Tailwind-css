@@ -267,5 +267,17 @@
 ‎
 ‎let avg = (a + b + c + d + e) / 5;
 ‎
-‎console.log("Average = " + avg);
+‎console.log("Average = " + avg);‎
+
+// 28. Write a JavaScript program to swap two numbers.
+‎
+‎let x = 5;
+‎let y = 10;
+‎
+‎let temp = x;
+‎x = y;
+‎y = temp;
+‎
+‎console.log("x = " + x);
+‎console.log("y = " + y);
 ‎
