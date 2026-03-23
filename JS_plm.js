@@ -280,4 +280,10 @@
 ‎
 ‎console.log("x = " + x);
 ‎console.log("y = " + y);
+
+‎// 29. Write a JavaScript program to find the length of a string.
+‎
+‎let str = "JavaScript";
+‎
+‎console.log("Length = " + str.length);
 ‎
