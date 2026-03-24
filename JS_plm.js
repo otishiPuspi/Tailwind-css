@@ -285,5 +285,14 @@
 ‎
 ‎let str = "JavaScript";
 ‎
-‎console.log("Length = " + str.length);
+‎console.log("Length = " + str.length);‎
+
+// 30. Write a JavaScript program to convert Celsius to Fahrenheit.
+‎
+‎let celsius = 25;
+‎
+‎let fahrenheit = (celsius * 9/5) + 32;
+‎
+‎console.log("Fahrenheit = " + fahrenheit);
+‎
 ‎
