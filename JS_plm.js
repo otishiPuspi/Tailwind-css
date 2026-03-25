@@ -295,4 +295,16 @@
 ‎
 ‎console.log("Fahrenheit = " + fahrenheit);
 ‎
+‎‎// 31. Write a JavaScript program to find the sum of digits of a number.
+‎
+‎let number = 1234;
+‎let sum = 0;
+‎
+‎while (number > 0) {
+‎    sum += number % 10;
+‎    number = Math.floor(number / 10);
+‎}
+‎
+‎console.log("Sum of digits = " + sum);
+‎
 ‎
