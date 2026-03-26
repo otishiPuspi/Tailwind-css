@@ -307,4 +307,16 @@
 ‎
 ‎console.log("Sum of digits = " + sum);
 ‎
+‎‎// 32. Write a JavaScript program to find the largest of three numbers.
 ‎
+‎let n1 = 10;
+‎let n2 = 25;
+‎let n3 = 15;
+‎
+‎if (n1 > n2 && n1 > n3) {
+‎    console.log("Largest = " + n1);
+‎} else if (n2 > n3) {
+‎    console.log("Largest = " + n2);
+‎} else {
+‎    console.log("Largest = " + n3);
+‎}
