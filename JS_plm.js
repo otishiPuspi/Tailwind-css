@@ -343,3 +343,13 @@
 ‎    console.log(3 * i);
 ‎}
 ‎
+‎// 36. Write a JavaScript program to check if a year is a leap year.
+‎
+‎let year = 2024;
+‎
+‎if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+‎    console.log("Leap Year");
+‎} else {
+‎    console.log("Not a Leap Year");
+‎}
+‎
