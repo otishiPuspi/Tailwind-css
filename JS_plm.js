@@ -448,5 +448,21 @@
 ‎}
 ‎
 ‎console.log("Sorted:", arr2);
+
+// 44. Write a JavaScript program to find the second largest number.
+‎
+‎let max = -Infinity, second = -Infinity;
+‎
+‎for (let i = 0; i < arr2.length; i++) {
+‎    if (arr2[i] > max) {
+‎        second = max;
+‎        max = arr2[i];
+‎    } else if (arr2[i] > second && arr2[i] !== max) {
+‎        second = arr2[i];
+‎    }
+‎}
+‎
+‎console.log("Second largest:", second);
+‎
 ‎
 ‎
