@@ -463,6 +463,21 @@
 ‎}
 ‎
 ‎console.log("Second largest:", second);
+
+‎
+‎// 45. Write a JavaScript program to find intersection of two arrays.
+‎
+‎let inter = [];
+‎
+‎for (let i = 0; i < a1.length; i++) {
+‎    if (a2.includes(a1[i])) {
+‎        inter.push(a1[i]);
+‎    }
+‎}
+‎
+‎console.log("Intersection:", inter);
+‎
+‎
 ‎
 ‎
 ‎
