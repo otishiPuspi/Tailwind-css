@@ -478,6 +478,16 @@
 ‎console.log("Intersection:", inter);
 ‎
 ‎
+‎‎// 46. Write a JavaScript program to count frequency of elements.
+‎
+‎let freq = {};
+‎
+‎for (let i = 0; i < arr1.length; i++) {
+‎    let val = arr1[i];
+‎    freq[val] = (freq[val] || 0) + 1;
+‎}
+‎
+‎console.log("Frequency:", freq);
 ‎
 ‎
 ‎
