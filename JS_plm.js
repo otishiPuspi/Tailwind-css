@@ -487,7 +487,22 @@
 ‎    freq[val] = (freq[val] || 0) + 1;
 ‎}
 ‎
-‎console.log("Frequency:", freq);
+‎console.log("Frequency:", freq);‎
+
+// 47. Write a JavaScript program to check anagram strings.
+‎
+‎let s1 = "listen";
+‎let s2 = "silent";
+‎
+‎let sort1 = s1.split("").sort().join("");
+‎let sort2 = s2.split("").sort().join("");
+‎
+‎if (sort1 === sort2) {
+‎    console.log("Anagram");
+‎} else {
+‎    console.log("Not Anagram");
+‎}
+‎
 ‎
 ‎
 ‎
