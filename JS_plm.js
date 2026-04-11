@@ -503,6 +503,19 @@
 ‎    console.log("Not Anagram");
 ‎}
 ‎
+‎‎// 48. Write a JavaScript program to find longest word in a sentence.
+‎
+‎let sentence = "I love programming in JavaScript";
+‎let words = sentence.split(" ");
+‎let longest = "";
+‎
+‎for (let i = 0; i < words.length; i++) {
+‎    if (words[i].length > longest.length) {
+‎        longest = words[i];
+‎    }
+‎}
+‎
+‎console.log("Longest word:", longest);
 ‎
 ‎
 ‎
