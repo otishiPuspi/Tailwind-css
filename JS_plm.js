@@ -518,4 +518,16 @@
 ‎console.log("Longest word:", longest);
 ‎
 ‎
+‎‎// 49. Write a JavaScript program to capitalize first letter of each word.
+‎
+‎let text1 = "hello world";
+‎let result = "";
+‎
+‎let parts = text1.split(" ");
+‎
+‎for (let i = 0; i < parts.length; i++) {
+‎    result += parts[i][0].toUpperCase() + parts[i].slice(1) + " ";
+‎}
+‎
+‎console.log(result.trim());
 ‎
