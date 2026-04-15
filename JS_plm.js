@@ -559,3 +559,16 @@
 ‎
 ‎console.log(stack.pop());
 ‎console.log(stack);
+
+‎// 52. Write a JavaScript program to implement queue.
+‎
+‎let queue = [];
+‎
+‎queue.push(1);
+‎queue.push(2);
+‎queue.push(3);
+‎
+‎console.log(queue.shift());
+‎console.log(queue);
+‎
+‎
