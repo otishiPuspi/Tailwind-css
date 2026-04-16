@@ -571,4 +571,12 @@
 ‎console.log(queue.shift());
 ‎console.log(queue);
 ‎
+‎‎// 53. Write a JavaScript program to debounce a function.
 ‎
+‎function debounce(fn, delay) {
+‎    let timer;
+‎    return function () {
+‎        clearTimeout(timer);
+‎        timer = setTimeout(() => fn(), delay);
+‎    };
+‎}
