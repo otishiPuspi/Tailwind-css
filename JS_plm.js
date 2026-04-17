@@ -580,3 +580,18 @@
 ‎        timer = setTimeout(() => fn(), delay);
 ‎    };
 ‎}
+
+‎// 54. Write a JavaScript program to throttle a function.
+‎
+‎function throttle(fn, limit) {
+‎    let wait = false;
+‎    return function () {
+‎        if (!wait) {
+‎            fn();
+‎            wait = true;
+‎            setTimeout(() => wait = false, limit);
+‎        }
+‎    };
+‎}
+‎
+‎
