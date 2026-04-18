@@ -594,4 +594,10 @@
 ‎    };
 ‎}
 ‎
+‎‎// 55. Write a JavaScript program to deep clone an object.
 ‎
+‎let obj = { a: 1, b: { c: 2 } };
+‎
+‎let clone = JSON.parse(JSON.stringify(obj));
+‎
+‎console.log(clone);
