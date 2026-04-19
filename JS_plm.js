@@ -601,3 +601,12 @@
 ‎let clone = JSON.parse(JSON.stringify(obj));
 ‎
 ‎console.log(clone);
+
+‎// 56. Write a JavaScript program to check if object is empty.
+‎
+‎let obj2 = {};
+‎
+‎if (Object.keys(obj2).length === 0) {
+‎    console.log("Empty object");
+‎}
+‎
