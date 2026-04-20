@@ -610,3 +610,10 @@
 ‎    console.log("Empty object");
 ‎}
 ‎
+‎// 57. Write a JavaScript program to convert object to array.
+‎
+‎let obj3 = { name: "Saif", age: 22 };
+‎
+‎let arrObj = Object.entries(obj3);
+‎
+‎console.log(arrObj);
