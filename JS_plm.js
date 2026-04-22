@@ -635,3 +635,16 @@
 ‎} else {
 ‎    console.log("Not Armstrong");
 ‎}
+
+‎// 59. Write a JavaScript program to find GCD of two numbers.
+‎
+‎let a = 12, b = 18;
+‎
+‎while (b !== 0) {
+‎    let temp = b;
+‎    b = a % b;
+‎    a = temp;
+‎}
+‎
+‎console.log("GCD = " + a);
+‎
