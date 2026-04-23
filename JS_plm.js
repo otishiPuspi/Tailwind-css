@@ -648,3 +648,16 @@
 ‎
 ‎console.log("GCD = " + a);
 ‎
+‎// 60. Write a JavaScript program to find LCM of two numbers.
+‎
+‎let x = 12, y = 18;
+‎let max = x > y ? x : y;
+‎
+‎while (true) {
+‎    if (max % x === 0 && max % y === 0) {
+‎        console.log("LCM = " + max);
+‎        break;
+‎    }
+‎    max++;
+‎}
+‎
