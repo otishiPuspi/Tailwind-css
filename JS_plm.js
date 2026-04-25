@@ -678,3 +678,14 @@
 ‎    console.log("Not perfect");
 ‎}
 ‎‎
+‎// 62. Write a JavaScript program to print all factors of a number.
+‎
+‎let n = 12;
+‎
+‎for (let i = 1; i <= n; i++) {
+‎    if (n % i === 0) {
+‎        console.log(i);
+‎    }
+‎}
+‎
+‎
