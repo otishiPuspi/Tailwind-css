@@ -688,4 +688,13 @@
 ‎    }
 ‎}
 ‎
+‎‎// 63. Write a JavaScript program to find power of a number.
 ‎
+‎let base = 2, exp = 3;
+‎let result = 1;
+‎
+‎for (let i = 1; i <= exp; i++) {
+‎    result *= base;
+‎}
+‎
+‎console.log("Power = " + result);
