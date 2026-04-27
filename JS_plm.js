@@ -698,3 +698,22 @@
 ‎}
 ‎
 ‎console.log("Power = " + result);
+
+
+‎// 64. Write a JavaScript program to check if a number is palindrome.
+‎
+‎let num1 = 121;
+‎let original = num1;
+‎let rev = 0;
+‎
+‎while (num1 > 0) {
+‎    rev = rev * 10 + (num1 % 10);
+‎    num1 = Math.floor(num1 / 10);
+‎}
+‎
+‎if (rev === original) {
+‎    console.log("Palindrome");
+‎} else {
+‎    console.log("Not Palindrome");
+‎}
+‎
