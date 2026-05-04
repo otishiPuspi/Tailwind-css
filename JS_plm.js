@@ -789,3 +789,15 @@
 ‎}
 ‎
 ‎console.log(revArr);
+
+‎// 71. Write a JavaScript program to find missing number in array (1 to N).
+‎
+‎let arr3 = [1,2,4,5];
+‎let total = 5 * (5 + 1) / 2;
+‎let sum2 = 0;
+‎
+‎for (let i = 0; i < arr3.length; i++) {
+‎    sum2 += arr3[i];
+‎}
+‎
+‎console.log("Missing:", total - sum2);
