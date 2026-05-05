@@ -801,3 +801,17 @@
 ‎}
 ‎
 ‎console.log("Missing:", total - sum2);
+
+
+‎// 72. Write a JavaScript program to remove negative numbers from array.
+‎
+‎let arr4 = [1,-2,3,-4,5];
+‎let positive = [];
+‎
+‎for (let i = 0; i < arr4.length; i++) {
+‎    if (arr4[i] >= 0) {
+‎        positive.push(arr4[i]);
+‎    }
+‎}
+‎
+‎console.log(positive);
