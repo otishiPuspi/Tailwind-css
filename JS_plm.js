@@ -815,3 +815,11 @@
 ‎}
 ‎
 ‎console.log(positive);
+
+‎// 73. Write a JavaScript program to count words in a string.
+‎
+‎let str = "I love JavaScript";
+‎let words = str.split(" ");
+‎
+‎console.log("Word count:", words.length);
+‎
