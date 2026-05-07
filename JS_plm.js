@@ -823,3 +823,11 @@
 ‎
 ‎console.log("Word count:", words.length);
 ‎
+‎// 74. Write a JavaScript program to capitalize first letter.
+‎
+‎let text = "hello";
+‎let result1 = text.charAt(0).toUpperCase() + text.slice(1);
+‎
+‎console.log(result1);
+‎
+‎
