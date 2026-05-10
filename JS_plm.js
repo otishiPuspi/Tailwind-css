@@ -854,3 +854,15 @@
 ‎}
 ‎
 ‎console.log("Average:", sum1 / arr1.length);
+
+‎// 76. Write a JavaScript program to count frequency of characters.
+‎
+‎let str2 = "hello";
+‎let freq = {};
+‎
+‎for (let i = 0; i < str2.length; i++) {
+‎    let ch = str2[i];
+‎    freq[ch] = (freq[ch] || 0) + 1;
+‎}
+‎
+‎console.log(freq);
