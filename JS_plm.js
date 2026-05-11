@@ -866,3 +866,12 @@
 ‎}
 ‎
 ‎console.log(freq);
+
+
+‎// 77. Write a JavaScript program to check substring exists.
+‎
+‎let main = "javascript";
+‎let sub = "script";
+‎
+‎console.log(main.includes(sub));
+‎
