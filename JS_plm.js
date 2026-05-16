@@ -920,3 +920,14 @@ console.log("Factorial of " + number + " is: i" + factorial);
 ‎    }
 ‎}
 ‎
+// 82.  Write a JavaScript program to check if a number is positive, negative or zero.
+‎
+‎let n = -5;
+‎
+‎if (n > 0) {
+‎    console.log("Positive");
+‎} else if (n < 0) {
+‎    console.log("Negative");
+‎} else {
+‎    console.log("Zero");
+‎}
