@@ -981,4 +981,13 @@ console.log("Factorial of " + number + " is: i" + factorial);
 ‎}
 ‎console.log("Sum is: " + sum);
 ‎
-
+‎// 88. Write a JavaScript program to find the largest of two numbers.
+‎
+‎let a = 10;
+‎let b = 20;
+‎Z
+‎if (a > b) {
+‎    console.log("Largest is: " + a);
+‎} else {
+‎    console.log("Largest is: " + b);
+‎}
