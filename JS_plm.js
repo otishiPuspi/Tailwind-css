@@ -1151,8 +1151,15 @@ let arr = [1,2,3,4,5]
 ‎}
 
 
-‎// Write a JavaScript program to print numbers from 1 to 10.
+‎// 102. Write a JavaScript program to print numbers from 1 to 10.
 ‎
 ‎for (let i = 1; i <= 10; i++) {
 ‎    console.log(i);
+‎}
+
+
+‎// 103. Write a JavaScript program to find the square of numbers from 1 to 10.
+‎
+‎for (let i = 1; i <= 10; i++) {
+‎    console.log(i + " square = " + (i * i));
 ‎}
