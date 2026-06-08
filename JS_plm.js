@@ -1175,3 +1175,13 @@ let arr = [1,2,3,4,5]
 ‎} else {
 ‎    console.log("Zero");
 ‎}
+
+
+// 105. Write a JavaScript program to find the sum of first 10 natural numbers.
+‎
+‎let sum = 0;
+‎for (let i = 1; i <= 10; i++) {
+‎    sum += i;
+‎}
+‎console.log("Sum is: " + sum);
+‎
