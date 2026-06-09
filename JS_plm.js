@@ -1185,3 +1185,13 @@ let arr = [1,2,3,4,5]
 ‎}
 ‎console.log("Sum is: " + sum);
 ‎
+‎// 106. Write a JavaScript program to find the factorial of a number.
+‎
+‎let num = 5;
+‎let fact = 1;
+‎for (let i = 1; i <= num; i++) {
+‎    fact *= i;
+‎}
+‎console.log("Factorial is: " + fact);
+
+
