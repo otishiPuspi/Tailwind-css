@@ -1265,3 +1265,15 @@ let arr = [1,2,3,4,5]
 ‎
 ‎console.log("x: " + x + ", y: " + y);
 
+‎// 113.  Write a JavaScript program to check if a number is positive, negative or zero.
+‎
+‎let n = -5;
+‎
+‎if (n > 0) {
+‎    console.log("Positive");
+‎} else if (n < 0) {
+‎    console.log("Negative");
+‎} else {
+‎    console.log("Zero");
+‎}
+
