@@ -1303,3 +1303,9 @@ let arr = [1,2,3,4,5]
 ‎} else {
 ‎    console.log("Largest is: " + b);
 ‎}
+
+‎//  Write a JavaScript program to print the first 10 multiples of 3.
+‎
+‎for (let i = 1; i <= 10; i++) {
+‎    console.log(3 * i);
+‎}
