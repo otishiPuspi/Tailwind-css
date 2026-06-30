@@ -1413,3 +1413,12 @@ let arr = [1,2,3,4,5]
 ‎} else {
 ‎    console.log("Largest is: " + b);
 ‎}
+
+//  Write a JavaScript program to check if a number is even or odd.
+‎
+‎let number = 7;
+‎if (number % 2 === 0) {
+‎    console.log("Even");
+‎} else {
+‎    console.log("Odd");
+‎}
