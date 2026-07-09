@@ -20,6 +20,13 @@
 ‎}
 ‎console.log("Factorial is: " + fact);
 
+‎// Write a JavaScript program to print numbers from 1 to 10.
+‎
+‎for (let i = 1; i <= 10; i++) {
+‎    console.log(i);
+‎}
+
+
 ‎// 4. Write a JavaScript program to check if a number is even or odd.
 ‎
 ‎let number = 7;
