@@ -1538,3 +1538,14 @@ console.log("Factorial of " + number + " is: i" + factorial);
 ‎for (let i = 1; i <= 10; i++) {
 ‎    console.log(i);
 ‎}
+
+// Write a JavaScript program to find the largest of two numbers.
+‎
+‎let a = 10;
+‎let b = 20;
+‎Z
+‎if (a > b) {
+‎    console.log("Largest is: " + a);
+‎} else {
+‎    console.log("Largest is: " + b);
+‎}
