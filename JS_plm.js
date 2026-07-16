@@ -1568,3 +1568,11 @@ console.log("Factorial of " + number + " is: i" + factorial);
 ‎for (let i = 1; i <= 10; i++) {
 ‎    console.log(i);
 ‎}
+
+//  Write a JavaScript program to print multiplication table of 5.
+‎
+‎let table = 5;
+‎
+‎for (let i = 1; i <= 10; i++) {
+‎    console.log(table + " x " + i + " = " + (table * i));
+‎}
